@@ -1,0 +1,5 @@
+[codespell]
+skip = *.stl,*.STL,*.dae,*.obj,*.mtl,*.usd,*.png,*.part,./.git
+quiet-level = 0
+# the word list should always have words in lower case (robot / lab names that read as typos)
+ignore-words-list = larg,bumpybot,draco,plato,optimo,husky
