@@ -1,0 +1,13 @@
+# Asset repo: no python, so only spelling and file-hygiene checks. Meshes and USDs are binary/generated.
+# .asset_hash is compared byte-for-byte by the USD converter, so it must keep its bare content.
+exclude: (\.(stl|STL|dae|obj|mtl|usd|png|part)|\.asset_hash)$
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: check-yaml
+      - id: end-of-file-fixer
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.2.6
+    hooks:
+      - id: codespell
