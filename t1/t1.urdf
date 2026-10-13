@@ -278,11 +278,9 @@
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0.05 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.15" />
+        <mesh filename="meshes/AL3.STL" />
       </geometry>
     </collision>
   </link>
@@ -335,11 +333,9 @@
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0.13 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.175" />
+        <mesh filename="meshes/left_hand_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -517,11 +513,9 @@
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 -0.05 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.15" />
+        <mesh filename="meshes/AR3.STL" />
       </geometry>
     </collision>
   </link>
@@ -574,11 +568,9 @@ xyz="-0.000108 -0.109573 0.000591"
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 -0.13 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.175" />
+        <mesh filename="meshes/right_hand_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -869,12 +861,11 @@ xyz="-0.000108 -0.109573 0.000591"
           rgba="0.4 0.4 0.4 0.3" />
       </material>
     </visual>
+    <!-- shank hull clipped 0.07-0.23 m below the knee: clear of the thigh and of the foot over the ankle range -->
     <collision>
-      <origin
-        xyz="0 0 -0.13"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <box size="0.1 0.08 0.1" />
+        <mesh filename="meshes/collision/Shank_Left.STL" />
       </geometry>
     </collision>
   </link>
@@ -1217,12 +1208,11 @@ xyz="-0.000108 -0.109573 0.000591"
           rgba="0.4 0.4 0.4 0.3" />
       </material>
     </visual>
+    <!-- shank hull clipped 0.07-0.23 m below the knee: clear of the thigh and of the foot over the ankle range -->
     <collision>
-      <origin
-        xyz="0 0 -0.13"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <box size="0.1 0.08 0.1" />
+        <mesh filename="meshes/collision/Shank_Right.STL" />
       </geometry>
     </collision>
   </link>
