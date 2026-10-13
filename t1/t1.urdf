@@ -280,7 +280,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/AL3.STL" />
+        <mesh filename="meshes/collision/AL3.STL" />
       </geometry>
     </collision>
   </link>
@@ -335,7 +335,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/left_hand_link.STL" />
+        <mesh filename="meshes/collision/left_hand_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -515,7 +515,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/AR3.STL" />
+        <mesh filename="meshes/collision/AR3.STL" />
       </geometry>
     </collision>
   </link>
@@ -570,7 +570,7 @@ xyz="-0.000108 -0.109573 0.000591"
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/right_hand_link.STL" />
+        <mesh filename="meshes/collision/right_hand_link.STL" />
       </geometry>
     </collision>
   </link>
