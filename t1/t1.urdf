@@ -278,11 +278,39 @@
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0.05 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.15" />
+        <mesh filename="meshes/collision/AL3_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -335,11 +363,39 @@
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0.13 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.175" />
+        <mesh filename="meshes/collision/left_hand_link_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -517,11 +573,39 @@
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 -0.05 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.15" />
+        <mesh filename="meshes/collision/AR3_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -574,11 +658,39 @@ xyz="-0.000108 -0.109573 0.000591"
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 -0.13 0"
-        rpy="1.5708 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <cylinder radius="0.03" length="0.175" />
+        <mesh filename="meshes/collision/right_hand_link_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -869,12 +981,11 @@ xyz="-0.000108 -0.109573 0.000591"
           rgba="0.4 0.4 0.4 0.3" />
       </material>
     </visual>
+    <!-- full shank mesh; the shank-foot pair is filtered in each simulator, not here -->
     <collision>
-      <origin
-        xyz="0 0 -0.13"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <box size="0.1 0.08 0.1" />
+        <mesh filename="meshes/Shank_Left.STL" />
       </geometry>
     </collision>
   </link>
@@ -976,12 +1087,9 @@ xyz="-0.000108 -0.109573 0.000591"
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="meshes/left_foot_link.STL" />
+        <mesh filename="meshes/left_foot_link.STL" />
       </geometry>
     </collision>
   </link>
@@ -1217,12 +1325,11 @@ xyz="-0.000108 -0.109573 0.000591"
           rgba="0.4 0.4 0.4 0.3" />
       </material>
     </visual>
+    <!-- full shank mesh; the shank-foot pair is filtered in each simulator, not here -->
     <collision>
-      <origin
-        xyz="0 0 -0.13"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <box size="0.1 0.08 0.1" />
+        <mesh filename="meshes/Shank_Right.STL" />
       </geometry>
     </collision>
   </link>
@@ -1324,12 +1431,9 @@ xyz="-0.000108 -0.109573 0.000591"
       </material>
     </visual>
     <collision>
-      <origin
-        xyz="0 0 0"
-        rpy="0 0 0" />
+      <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh
-          filename="meshes/right_foot_link.STL" />
+        <mesh filename="meshes/right_foot_link.STL" />
       </geometry>
     </collision>
   </link>
