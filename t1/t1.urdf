@@ -280,7 +280,37 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/collision/AL3.STL" />
+        <mesh filename="meshes/collision/AL3_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AL3_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -335,7 +365,37 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/collision/left_hand_link.STL" />
+        <mesh filename="meshes/collision/left_hand_link_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/left_hand_link_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -515,7 +575,37 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/collision/AR3.STL" />
+        <mesh filename="meshes/collision/AR3_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/AR3_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -570,7 +660,37 @@ xyz="-0.000108 -0.109573 0.000591"
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/collision/right_hand_link.STL" />
+        <mesh filename="meshes/collision/right_hand_link_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_4.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/right_hand_link_5.STL" />
       </geometry>
     </collision>
   </link>
@@ -861,11 +981,35 @@ xyz="-0.000108 -0.109573 0.000591"
           rgba="0.4 0.4 0.4 0.3" />
       </material>
     </visual>
-    <!-- shank hull clipped 0.07-0.23 m below the knee: clear of the thigh and of the foot over the ankle range -->
+    <!-- shank pieces clipped 0.07-0.225 m below the knee; the ankle bracket below interlocks with the foot -->
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/collision/Shank_Left.STL" />
+        <mesh filename="meshes/collision/Shank_Left_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/Shank_Left_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/Shank_Left_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/Shank_Left_3.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/Shank_Left_4.STL" />
       </geometry>
     </collision>
   </link>
@@ -1208,11 +1352,29 @@ xyz="-0.000108 -0.109573 0.000591"
           rgba="0.4 0.4 0.4 0.3" />
       </material>
     </visual>
-    <!-- shank hull clipped 0.07-0.23 m below the knee: clear of the thigh and of the foot over the ankle range -->
+    <!-- shank pieces clipped 0.07-0.225 m below the knee; the ankle bracket below interlocks with the foot -->
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0" />
       <geometry>
-        <mesh filename="meshes/collision/Shank_Right.STL" />
+        <mesh filename="meshes/collision/Shank_Right_0.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/Shank_Right_1.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/Shank_Right_2.STL" />
+      </geometry>
+    </collision>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0" />
+      <geometry>
+        <mesh filename="meshes/collision/Shank_Right_3.STL" />
       </geometry>
     </collision>
   </link>
