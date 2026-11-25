@@ -51,6 +51,12 @@
           size="0.16 0.2 0.25" />
       </geometry>
     </collision>
+    <collision>
+      <origin xyz="0.06 0 -0.065" rpy="0 0 0" />
+      <geometry>
+        <box size="0.16 0.2 0.06" />
+      </geometry>
+    </collision>
   </link>
   <link
     name="head_yaw_link">
@@ -189,6 +195,12 @@
           rgba="0.847 0.847 0.847 1" />
       </material>
     </visual>
+    <collision>
+      <origin xyz="0 0.043 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.05" />
+      </geometry>
+    </collision>
   </link>
   <joint
     name="left_shoulder_pitch_joint"
@@ -571,6 +583,12 @@
           rgba="0.847 0.847 0.847 1" />
       </material>
     </visual>
+    <collision>
+      <origin xyz="0 -0.043 0" rpy="0 0 0" />
+      <geometry>
+        <sphere radius="0.05" />
+      </geometry>
+    </collision>
   </link>
   <joint
     name="right_shoulder_pitch_joint"
@@ -1002,6 +1020,12 @@
           rgba="0.2078 0.2078 0.2078 1" />
       </material>
     </visual>
+    <collision>
+      <origin xyz="-0.0025 0 -0.044" rpy="0 0 0" />
+      <geometry>
+        <box size="0.085 0.09 0.114" />
+      </geometry>
+    </collision>
   </link>
   <joint
     name="waist_roll_joint"
